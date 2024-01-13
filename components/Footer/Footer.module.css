@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footerWord {
+    margin: 0 8px;
+    color: var(--gray);
+}

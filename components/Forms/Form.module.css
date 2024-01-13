@@ -1,0 +1,131 @@
+.loginSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logoContainer img {
+    width: 190px;
+    height: 60px;
+  }
+  
+  .appStore img {
+    height: 40px;
+    padding: 5px;
+  }
+  
+  .facebookLoginContainer img {
+    height: 15px;
+    padding: 0 5px;
+  }
+  
+  .loginArea {
+    border: 1px solid var(--lightGray);
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+  
+  .logoContainer {
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputField, .identity {
+    width: 250px;
+    padding: 10px 10px;
+    margin: 5px 20px;
+    border: 1px solid var(--gray);
+    border-color: var(--lightGray);
+    border-radius: 3px;
+    background-color: var(--lighterGray);
+  }
+  
+  .loginButton {
+    width: 270px;
+    padding: 8px 0px;
+    margin: 5px auto;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    display: block;
+  }  
+
+  .orContainer {
+    margin: auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .lines {
+    width: 270px;
+    height: 45px;
+    position: relative;
+  }
+
+  .lines::after, .lines::before {
+    content: " ";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: var(--lightGray);
+    width: 35%;
+    top: 50%;
+}
+
+.lines::after {
+    left: 0;
+}
+
+.lines::before {
+    right: 0;
+}
+
+.orSection {
+    height: 45px;
+    width: 40px;
+    line-height: 45px;
+    margin: auto;
+}
+
+.facebookLoginContainer {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.facebookLoginContainer span {
+    font-size: 16px;
+    color: var(--darkBlue);
+}
+
+.forgotPassword {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.signUpContainer {
+    border: 1px solid var(--lightGray);
+    border-radius: 2px;
+    margin: 10px 0;
+    padding: 20px 72px;
+    text-align: center;
+}
+
+.signUpContainer a {
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--blue);
+}
+
+.appStore {
+    text-align: center;
+}
